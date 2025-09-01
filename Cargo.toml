@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "auth-service",
+    "web-frontend"
+]
+
+[package]
+name = "main-app"
+version = "0.1.0"
+
+[dependencies]
+serde111111111111111111111111111 = "1.0"
