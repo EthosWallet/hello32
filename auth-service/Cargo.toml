@@ -1,0 +1,11 @@
+[package]
+name = "auth-service"
+version = "0.1.0"
+
+[dependencies]
+# Dependency confusion target - this package doesn't exist in crates.io
+nonexistent-auth-lib = "1.0.0"
+# GitHub repo jacking target - this repo doesn't exist
+jwt-validator = { git = "https://github.com/missing-org1232132/missing-jwt-repo" }
+# Valid dependency for comparison
+serde = "1.0"
