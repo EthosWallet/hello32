@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "main-project"
+version = "0.1.0"
+dependencies = [
+    "requests12321321312>=2.28.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["services*", "frontend*"]
