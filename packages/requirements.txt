@@ -1,0 +1,3 @@
+acme-pkg-mid1234567==1.0.0
+https://github.com/asdjlkdjkldljkdas/asdsadasdasda
+-r ../packages100/requirements.txt
